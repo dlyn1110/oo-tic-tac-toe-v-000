@@ -100,13 +100,13 @@ end
   end
 
   def play
-    while !over?
+    while !over
       turn_count
       turn
     end
-    if won?
+    if won
       puts "Congratulations #{winner}!"
-    elsif draw?
+    elsif draw
        "Cat's Game!"
     end
   end
