@@ -104,7 +104,7 @@ end
       turn_count
       turn
     end
-    if won
+    if won?
       puts "Congratulations #{winner}!"
     elsif draw
        "Cat's Game!"
